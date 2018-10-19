@@ -53,7 +53,7 @@ public class QuizDatabaseHelper extends SQLiteOpenHelper {
         //this calss is to update the database
 
         sqLiteDatabase.execSQL("DROP TABLE IF EXISTS " + QuestionTable.TABLE_NAME);
-        onCreate(sqLiteDatabase);
+        onCreate(sqLiteDatabase); 
 
     }
 
